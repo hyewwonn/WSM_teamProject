@@ -1,0 +1,308 @@
+@font-face {
+    font-family: 'MinSans-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	font-family: 'MinSans-Regular';
+}
+
+#left {
+	position: fixed;
+	width: 50%;
+	height: auto;
+	display: inline-block;
+}
+
+#right {
+	width: 50%;
+	height: auto;
+	display: inline-block;
+	float: right;
+}
+
+.best-menu {
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+}
+
+#best-menu-h1 {
+	margin-top: 14%;
+	margin-left: 14%;
+}
+
+#best-menu {
+	width: 80%;
+	margin-left: 14%;
+}
+
+#best-menu p{
+	display: inline-block;
+	margin-left: 15%;
+	font-size: 160%;
+}
+
+#best-Egg-Mayo {
+	display: flex;
+	align-items: center;
+	border: #000 1px solid;
+	border-radius: 1em;
+	margin-bottom: 2%;
+}
+
+#best-Egg-Mayo-img {
+	width: 40%;
+	height: auto;
+	margin-left: 5%;
+}
+
+#best-Italian-BMT {
+	display: flex;
+	align-items: center;
+	border: #000 1px solid;
+	border-radius: 1em;
+	margin-bottom: 2%;
+}
+
+#best-Italian-BMT-img {
+	width: 40%;
+	height: auto;
+	margin-left: 5%;
+}
+
+#best-Steak-Cheese {
+	display: flex;
+	align-items: center;
+	border: #000 1px solid;
+	border-radius: 1em;
+	margin-bottom: 2%;
+}
+
+#best-Steak-Cheese-img {
+	width: 40%;
+	height: auto;
+	margin-left: 5%;
+}
+
+.menu {
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+}
+
+#menu-h1 {
+	margin-top: 14%;
+	margin-left: 14%;
+	margin-bottom: 0;
+}
+
+#filter {
+	text-align: center;
+}
+
+#filter p {
+	margin: 0;
+	margin-top: 7px;
+}
+
+#menu-whole-filter {
+	width: 70px;
+	height: 35px;
+	display: inline-block;
+	border-radius: 1em;
+	margin: 0.2%;
+	border: none;
+	background-color: #D9D9D9;
+	margin: 3px;
+}
+
+#menu-classic-filter {
+	width: 70px;
+	height: 35px;
+	display: inline-block;
+	border-radius: 1em;
+	margin: 0.2%;
+	border: none;
+	background-color: #D9D9D9;
+	margin: 3px;
+}
+
+#menu-fresh-filter {
+	width: 70px;
+	height: 35px;
+	display: inline-block;
+	border-radius: 1em;
+	margin: 0.2%;
+	border: none;
+	background-color: #D9D9D9;
+	display: flex;
+	align-items: center;
+	margin: 3px;
+}
+
+#menu-premium-filter {
+	width: 70px;
+	height: 35px;
+	display: inline-block;
+	border-radius: 1em;
+	margin: 0.2%;
+	border: none;
+	background-color: #D9D9D9;
+	margin: 3px;
+}
+
+#menu-etc-filter {
+	width: 70px;
+	height: 35px;
+	display: inline-block;
+	border-radius: 1em;
+	margin: 0.2%;
+	border: none;
+	background-color: #D9D9D9;
+	margin: 3px;
+}
+
+#filter div {
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	outline: none;
+}
+
+#menu {
+	width: 70%;
+	margin: 2% 0 10% 14%;
+
+}
+
+#menu p{
+	display: inline-block;
+	margin-left: 20%;
+	font-size: 160%;
+}
+
+#menu-name {
+	font-size: 150%;
+}
+
+#menu-ingredient {
+	color: #666666;
+}
+
+#menu-Egg-Mayo {
+	border: #000 1px solid;
+	border-radius: 1em;
+	margin-bottom: 2%;
+	display: flex;
+	align-items: center;
+}
+
+#menu-Egg-Mayo-img {
+	width: 30%;
+	height: auto;
+	margin-left: 5%;
+}
+
+#menu-Egg-Mayo-info {
+	display: inline-block;
+	margin-left: 10%;
+}
+
+#menu-Italian-BMT {
+	border: #000 1px solid;
+	border-radius: 1em;
+	margin-bottom: 2%;
+	display: flex;
+	align-items: center;
+}
+
+#menu-Italian-BMT-img {
+	width: 30%;
+	height: auto;
+	margin-left: 5%;
+}
+
+#menu-Italian-BMT-info {
+	display: inline-block;
+	margin-left: 10%;
+}
+
+#menu-BLT {
+	border: #000 1px solid;
+	border-radius: 1em;
+	margin-bottom: 2%;
+	display: flex;
+	align-items: center;
+}
+
+#menu-BLT-img {
+	width: 30%;
+	height: auto;
+	margin-left: 5%;
+}
+
+#menu-BLT-info {
+	display: inline-block;
+	margin-left: 10%;
+}
+
+#menu-Meatball {
+	border: #000 1px solid;
+	border-radius: 1em;
+	margin-bottom: 2%;
+	display: flex;
+	align-items: center;
+}
+
+#menu-Meatball-img {
+	width: 30%;
+	height: auto;
+	margin-left: 5%;
+}
+
+#menu-Meatball-info {
+	display: inline-block;
+	margin-left: 10%;
+}
+
+#menu-Ham {
+	border: #000 1px solid;
+	border-radius: 1em;
+	margin-bottom: 2%;
+	display: flex;
+	align-items: center;
+}
+
+#menu-Ham-img {
+	width: 30%;
+	height: auto;
+	margin-left: 5%;
+}
+
+#menu-Ham-info {
+	display: inline-block;
+	margin-left: 10%;
+}
+
+#menu-Tuna {
+	border: #000 1px solid;
+	border-radius: 1em;
+	margin-bottom: 2%;
+	display: flex;
+	align-items: center;
+}
+
+#menu-Tuna-img {
+	width: 30%;
+	height: auto;
+	margin-left: 5%;
+}
+
+#menu-Tuna-info {
+	display: inline-block;
+	margin-left: 10%;
+}
