@@ -32,7 +32,7 @@
 #menu-img {
 	width: 75%;
 	height: auto;
-	margin-top: 10%;
+	margin-top: 12%;
 	background-color: white;
 	border-style: solid;
 	border-width: 3px;
@@ -120,12 +120,17 @@
 }
 
 #my-recipe {
-	margin: 10% 0 10% 14%;
+	margin: 10% 0 8% 14%;
 	overflow: auto;
 }
 
 #my-recipe input {
 	margin-left: 3%;
+}
+
+#bread {
+	width: 70%;
+	height: auto;
 }
 
 #bread p {
@@ -134,7 +139,7 @@
 }
 
 #bread-White {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -152,7 +157,7 @@
 }
 
 #bread-Wheat {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -170,7 +175,7 @@
 }
 
 #bread-Flat-Bread {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -188,7 +193,7 @@
 }
 
 #bread-Parmesan-Oregano {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -206,7 +211,7 @@
 }
 
 #bread-Honey-Oat {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -224,7 +229,7 @@
 }
 
 #bread-Hearty-Italian {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -245,13 +250,18 @@
 	margin-top: 2%;
 }
 
+#cheese {
+	width: 70%;
+	height: auto;
+}
+
 #cheese p {
 	display: inline-block;
 	margin-left: 10%;
 }
 
 #cheese-American {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -269,7 +279,7 @@
 }
 
 #cheese-Shredded {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -287,7 +297,7 @@
 }
 
 #cheese-Mozzarella {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -308,13 +318,18 @@
 	margin-top: 2%;
 }
 
+#plus {
+	width: 70%;
+	height: auto;
+}
+
 #plus p {
 	display: inline-block;
 	margin-left: 10%;
 }
 
 #plus-Meat {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -332,7 +347,7 @@
 }
 
 #plus-Shrimp-Double-Up {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -350,7 +365,7 @@
 }
 
 #plus-Egg-Mayo {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -368,7 +383,7 @@
 }
 
 #plus-Omelet {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -386,7 +401,7 @@
 }
 
 #plus-Avocado {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -404,7 +419,7 @@
 }
 
 #plus-Bacon {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -422,7 +437,7 @@
 }
 
 #plus-Pepperoni {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -440,7 +455,7 @@
 }
 
 #plus-Cheese {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -461,13 +476,18 @@
 	margin-top: 2%;
 }
 
+#vegetable {
+	width: 70%;
+	height: auto;
+}
+
 #vegetable p {
 	display: inline-block;
 	margin-left: 10%;
 }
 
 #vegetable-Lettuce {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -485,7 +505,7 @@
 }
 
 #vegetable-Tomatoes {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -503,7 +523,7 @@
 }
 
 #vegetable-Cucumbers {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -521,7 +541,7 @@
 }
 
 #vegetable-Peppers {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -539,7 +559,7 @@
 }
 
 #vegetable-Red-Onions {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -557,7 +577,7 @@
 }
 
 #vegetable-Pickles {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -575,7 +595,7 @@
 }
 
 #vegetable-Olives {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -593,7 +613,7 @@
 }
 
 #vegetable-Jalapenos {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -611,7 +631,7 @@
 }
 
 #vegetable-Avocado {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -632,13 +652,18 @@
 	margin-top: 2%;
 }
 
+#sauce {
+	width: 70%;
+	height: auto;
+}
+
 #sauce p {
 	display: inline-block;
 	margin-left: 10%;
 }
 
 #sauce-Ranch {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -656,7 +681,7 @@
 }
 
 #sauce-Mayonnaise {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -674,7 +699,7 @@
 }
 
 #sauce-Sweet-Onion {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -692,7 +717,7 @@
 }
 
 #sauce-Honey-Mustard {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -710,7 +735,7 @@
 }
 
 #sauce-Sweet-Chilli {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -728,7 +753,7 @@
 }
 
 #sauce-Hot-Chilli {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -746,7 +771,7 @@
 }
 
 #sauce-Southwest-Chipotle {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -764,7 +789,7 @@
 }
 
 #sauce-Yellow-Mustard {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -782,7 +807,7 @@
 }
 
 #sauce-Horseradish {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -800,7 +825,7 @@
 }
 
 #sauce-Olive-Oil {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -818,7 +843,7 @@
 }
 
 #sauce-Red-Wine-Vinaigrette {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -836,7 +861,7 @@
 }
 
 #sauce-Salt {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -854,7 +879,7 @@
 }
 
 #sauce-Black-Pepper {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -872,7 +897,7 @@
 }
 
 #sauce-Smoke-BBQ {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -890,7 +915,7 @@
 }
 
 #sauce-Italian-Dressing {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	border-style: solid;
 	border-width: 1px;
@@ -932,9 +957,6 @@ button {
 	transition: all 0.3s ease;
 	position: relative;
 	display: inline-block;
-/*	box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-	7px 7px 20px 0px rgba(0,0,0,.1),
-	4px 4px 5px 0px rgba(0,0,0,.1);*/
 	outline: none;
 }
 
@@ -959,9 +981,6 @@ button {
 	transition: all 0.3s ease;
 	position: relative;
 	display: inline-block;
-/*	box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-	7px 7px 20px 0px rgba(0,0,0,.1),
-	4px 4px 5px 0px rgba(0,0,0,.1);*/
 	outline: none;
 }
 
@@ -975,56 +994,110 @@ button {
 	top: 2px;
 }
 
-
-
-
 .review {
 	margin-top: 5%;
 	width: 100%;
 	height: auto;
+	margin-bottom: 10%;
 }
 
-#recipeh2 {
+#reviewh2 {
 	margin-left: 14%;
 }
 
-#recipe {
-	margin-left: 14%;
+#review {
+	margin-left: 16%;
 }
 
-#recipe1 {
-	width: 100px;
+#review1 {
+	width: 70%;
 	height: 100px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: black;
 	border-radius: 0.5em;
-	display: inline-block;
-	margin: 0 1% 0 1%;
+	margin-top: 1.5%;
+	display: flex;
+	align-items: center;
 }
 
-#recipe2 {
-	width: 100px;
+#review2 {
+	width: 70%;
 	height: 100px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: black;
 	border-radius: 0.5em;
-	display: inline-block;
-	margin: 0 1% 0 1%;
+	margin-top: 1.5%;
+	display: flex;
+	align-items: center;
 }
 
-#recipe3 {
-	width: 100px;
+#review3 {
+	width: 70%;
 	height: 100px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: black;
 	border-radius: 0.5em;
-	display: inline-block;
-	margin: 0 1% 0 1%;
+	margin-top: 1.5%;
+	display: flex;
+	align-items: center;
 }
 
-#recipe p {
+#review p {
 	margin: 3% 2% 2% 2%;
+	display: inline-block;
+	margin-left: 5%;
+}
+
+#review1-img {
+	display: inline-block;
+	width: 85px;
+	height: 85px;
+	margin-left: 3%;
+	position: relative;
+}
+
+#review1-img img {
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform: translate(50, 50);
+	position: absolute;
+}
+
+#review2-img {
+	display: inline-block;
+	width: 85px;
+	height: 85px;
+	margin-left: 3%;
+	position: relative;
+}
+
+#review2-img img {
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform: translate(50, 50);
+	position: absolute;
+}
+
+#review3-img {
+	display: inline-block;
+	width: 85px;
+	height: 85px;
+	margin-left: 3%;
+	position: relative;
+}
+
+#review3-img img {
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform: translate(50, 50);
+	position: absolute;
 }
