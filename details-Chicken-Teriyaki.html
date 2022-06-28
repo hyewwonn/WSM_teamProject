@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Way to Best</title>
+	<link rel="stylesheet" type="text/css" href="css/bar.css" />
+	<link rel="stylesheet" type="text/css" href="css/style-details.css" />
+</head>
+
+<body>
+	<div id='bar'>
+		<div id='bar-line'></div>
+		<div id='bar-item'>
+			<img id='logo' src="img/logo.png">
+			<div id='bar-img'><img id='menu-burger' src="img/menu-burger.png"></div>
+		</div>
+		<div id='bar-gradient'></div>
+	</div>
+
+	<div id='left'>
+		<div id='menu'>
+			<div id='menu-img'>
+				<img src="img/menu/Chicken-Teriyaki.png">
+			</div>
+			<div id='menu-info'>
+				<h1 id='menu-name'>치킨 데리야끼</h1>
+				<p id='kcal'>314 Kcal</p>
+				<p id='ingredient'>치킨 데리야끼 1스쿱</p>
+			</div>
+		</div>
+
+		<div id='Best-recipe'>
+			<h2 id='recipeh2'>추천 조합</h2>
+			<div id='recipe'>
+				<div id='recipe1'>
+					<p>파마산 오레가노 / 빵 속 파기</p>
+					<p>모차렐라</p>
+					<p>페퍼로니, 아보카도 추가</p>
+					<p>양상추 제외 / 양파 토스팅</p>
+					<p>허니머스타드</p>
+				</div>
+				<div id='recipe2'>
+					<p>플랫</p>
+					<p>슈레드</p>
+					<p>추가 없음</p>
+					<p>피망 제외</p>
+					<p>랜치+핫칠리</p>
+				</div>
+				<div id='recipe3'>
+					<p>화이트</p>
+					<p>아메리칸</p>
+					<p>추가 없음</p>
+					<p>오이 제외 / 양파 토스팅</p>
+					<p>바비큐</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id='right'>
+		<div id='my-recipe'>
+			<h2 id='myrecipeh2'>내 조합 만들기</h2>
+			<details class='bread'>
+				<summary>빵</summary>
+				<div id='bread'>
+					<div id='bread-White'>
+						<input type="radio" name="bread" value="bread-White">
+						<img id='White-img' src="img/bread/White.jpg">
+						<p>화이트</p>
+					</div>
+
+					<div id='bread-Wheat'>
+						<input type="radio" name="bread" value="bread-Wheat">
+						<img id='Wheat-img' src="img/bread/Wheat.jpg">
+						<p>위트</p>
+					</div>
+
+					<div id='bread-Flat-Bread'>
+						<input type="radio" name="bread" value="bread-Flat-Bread">
+						<img id='Flat-Bread-img' src="img/bread/Flat-Bread.jpg">
+						<p>플랫브레드</p>
+					</div>
+
+					<div id='bread-Parmesan-Oregano'>
+						<input type="radio" name="bread" value="bread-Parmesan-Oregano">
+						<img id='Parmesan-Oregano-img' src="img/bread/Parmesan-Oregano.jpg">
+						<p>파마산 오레가노</p>
+					</div>
+
+					<div id='bread-Honey-Oat'>
+						<input type="radio" name="bread" value="bread-Honey-Oat">
+						<img id='Honey-Oat-img' src="img/bread/Honey-Oat.jpg">
+						<p>허니오트</p>
+					</div>
+
+					<div id='bread-Hearty-Italian'>
+						<input type="radio" name="bread" value="bread-Hearty-Italian">
+						<img id='Hearty-Italian-img' src="img/bread/Hearty-Italian.jpg">
+						<p>하티</p>
+					</div>
+				</div>
+			</details>
+
+			<details class='cheese'>
+				<summary>치즈</summary>
+				<div id='cheese'>
+					<div id='cheese-American'>
+						<input type="radio" name="cheese" value="cheese-American">
+						<img id='cheese-American-img' src="img/cheese/American.jpg">
+						<p>아메리칸</p>
+					</div>
+
+					<div id='cheese-Shredded'>
+						<input type="radio" name="cheese" value="cheese-Shredded">
+						<img id='cheese-Shredded-img' src="img/cheese/Shredded.jpg">
+						<p>슈레드</p>
+					</div>
+
+					<div id='cheese-Mozzarella'>
+						<input type="radio" name="cheese" value="cheese-Mozzarella">
+						<img id='cheese-Mozzarella-img' src="img/cheese/Mozzarella.jpg">
+						<p>모차렐라</p>
+					</div>
+				</div>
+			</details>
+
+			<details class='plus'>
+				<summary>추가토핑</summary>
+				<div id='plus'>
+					<div id='plus-Meat'>
+						<input type="checkbox" value="plus-Meat">
+						<img id='plus-Meat-img' src="img/plus/Meat.png">
+						<p>미트 추가</p>
+					</div>
+						<div id='plus-Shrimp-Double-Up'>
+						<input type="checkbox"  value="plus-Shrimp-Double-Up">
+						<img id='plus-Shrimp-Double-Up-img' src="img/plus/Shrimp-Double-Up.png">
+						<p>쉬림프 더블업</p>
+					</div>
+
+					<div id='plus-Egg-Mayo'>
+						<input type="checkbox" value="plus-Egg-Mayo">
+						<img id='plus-Egg-Mayo-img' src="img/plus/Egg-Mayo.png">
+						<p>에그마요</p>
+					</div>
+
+					<div id='plus-Omelet'>
+						<input type="checkbox" value="plus-Omelet">
+						<img id='plus-Omelet-img' src="img/plus/Omelet.png">
+						<p>오믈렛</p>
+					</div>
+
+					<div id='plus-Avocado'>
+						<input type="checkbox" value="plus-Avocado">
+						<img id='plus-Avocado-img' src="img/plus/Avocado.png">
+						<p>아보카도</p>
+					</div>
+
+					<div id='plus-Bacon'>
+						<input type="checkbox" value="plus-Bacon">
+						<img id='plus-Bacon-img' src="img/plus/Bacon.png">
+						<p>베이컨</p>
+					</div>
+
+					<div id='plus-Pepperoni'>
+						<input type="checkbox" value="plus-Pepperoni">
+						<img id='plus-Pepperoni-img' src="img/plus/Pepperoni.png">
+						<p>페퍼로니</p>
+					</div>
+
+					<div id='plus-Cheese'>
+						<input type="checkbox" value="plus-Cheese">
+						<img id='plus-Cheese-img' src="img/plus/Cheese.png">
+						<p>치즈 추가</p>
+					</div>
+				</div>
+			</details>
+
+
+			<details class='vegetable'>
+				<summary>야채 제외</summary>
+				<div id='vegetable'>
+					<div id='vegetable-Lettuce'>
+						<input type="checkbox" value="vegetable-Lettuce">
+						<img id='vegetable-Lettuce-img' src="img/vegetable/Lettuce.jpg">
+						<p>양상추</p>
+					</div>
+					<div id='vegetable-Tomatoes'>
+						<input type="checkbox" value="vegetable-Tomatoes">
+						<img id='vegetable-Tomatoes-img' src="img/vegetable/Tomatoes.jpg">
+						<p>토마토</p>
+					</div>
+					<div id='vegetable-Cucumbers'>
+						<input type="checkbox" value="vegetable-Cucumbers">
+						<img id='vegetable-Cucumbers-img' src="img/vegetable/Cucumbers.jpg">
+						<p>오이</p>
+					</div>
+					<div id='vegetable-Peppers'>
+						<input type="checkbox" value="vegetable-Peppers">
+						<img id='vegetable-Peppers-img' src="img/vegetable/Peppers.jpg">
+						<p>피망</p>
+					</div>
+					<div id='vegetable-Red-Onions'>
+						<input type="checkbox" value="vegetable-Red-Onions">
+						<img id='vegetable-Red-Onions-img' src="img/vegetable/Red-Onions.jpg">
+						<p>양파</p>
+					</div>
+					<div id='vegetable-Pickles'>
+						<input type="checkbox" value="vegetable-Pickles">
+						<img id='vegetable-Pickles-img' src="img/vegetable/Pickles.jpg">
+						<p>피클</p>
+					</div>
+					<div id='vegetable-Olives'>
+						<input type="checkbox" value="vegetable-Olives">
+						<img id='vegetable-Olives-img' src="img/vegetable/Olives.jpg">
+						<p>올리브</p>
+					</div>
+					<div id='vegetable-Jalapenos'>
+						<input type="checkbox" value="vegetable-Jalapenos">
+						<img id='vegetable-Jalapenos-img' src="img/vegetable/Jalapenos.jpg">
+						<p>할라피뇨</p>
+					</div>
+					<div id='vegetable-Avocado'>
+						<input type="checkbox" value="vegetable-Avocado">
+						<img id='vegetable-Avocado-img' src="img/vegetable/Avocado.jpg">
+						<p>아보카도</p>
+					</div>
+				</div>
+			</details>
+
+			<details class='sauce'>
+				<summary>소스</summary>
+				<div id='sauce'>
+					<div id='sauce-Ranch'>
+						<input type="checkbox" value="sauce-Ranch">
+						<img id='sauce-Ranch-img' src="img/sauce/Ranch.jpg">
+						<p>랜치</p>
+					</div>
+					<div id='sauce-Mayonnaise'>
+						<input type="checkbox" value="sauce-Mayonnaise">
+						<img id='sauce-Mayonnaise-img' src="img/sauce/Mayonnaise.jpg">
+						<p>마요네즈</p>
+					</div>
+					<div id='sauce-Sweet-Onion'>
+						<input type="checkbox" value="sauce-Sweet-Onion">
+						<img id='sauce-Sweet-Onion-img' src="img/sauce/Sweet-Onion.jpg">
+						<p>스위트 어니언</p>
+					</div>
+					<div id='sauce-Honey-Mustard'>
+						<input type="checkbox" value="sauce-Honey-Mustard">
+						<img id='sauce-Honey-Mustard-img' src="img/sauce/Honey-Mustard.jpg">
+						<p>허니 머스타드</p>
+					</div>
+					<div id='sauce-Sweet-Chilli'>
+						<input type="checkbox" value="sauce-Sweet-Chilli">
+						<img id='sauce-Sweet-Chilli-img' src="img/sauce/Sweet-Chilli.jpg">
+						<p>스위트 칠리</p>
+					</div>
+					<div id='sauce-Hot-Chilli'>
+						<input type="checkbox" value="sauce-Hot-Chilli">
+						<img id='sauce-Hot-Chilli-img' src="img/sauce/Hot-Chilli.jpg">
+						<p>핫 칠리</p>
+					</div>
+					<div id='sauce-Southwest-Chipotle'>
+						<input type="checkbox" value="sauce-Southwest-Chipotle">
+						<img id='sauce-Southwest-Chipotle-img' src="img/sauce/Southwest-Chipotle.jpg">
+						<p>사우스웨스트 치폴레</p>
+					</div>
+					<div id='sauce-Yellow-Mustard'>
+						<input type="checkbox" value="sauce-Yellow-Mustard">
+						<img id='sauce-Yellow-Mustard-img' src="img/sauce/Yellow-Mustard.jpg">
+						<p>머스타드</p>
+					</div>
+					<div id='sauce-Horseradish'>
+						<input type="checkbox" value="sauce-Horseradish">
+						<img id='sauce-Horseradish-img' src="img/sauce/Horseradish.jpg">
+						<p>홀스래디쉬</p>
+					</div>
+					<div id='sauce-Olive-Oil'>
+						<input type="checkbox" value="sauce-Olive-Oil">
+						<img id='sauce-Olive-Oil-img' src="img/sauce/Olive-Oil.jpg">
+						<p>올리브 오일</p>
+					</div>
+					<div id='sauce-Red-Wine-Vinaigrette'>
+						<input type="checkbox" value="sauce-Red-Wine-Vinaigrette">
+						<img id='sauce-Red-Wine-Vinaigrette-img' src="img/sauce/Red-Wine-Vinaigrette.jpg">
+						<p>레드와인식초</p>
+					</div>
+					<div id='sauce-Salt'>
+						<input type="checkbox" value="sauce-Salt">
+						<img id='sauce-Salt-img' src="img/sauce/Salt.jpg">
+						<p>소금</p>
+					</div>
+					<div id='sauce-Black-Pepper'>
+						<input type="checkbox" value="sauce-Black-Pepper">
+						<img id='sauce-Black-Pepper-img' src="img/sauce/Black-Pepper.jpg">
+						<p>후추</p>
+					</div>
+					<div id='sauce-Smoke-BBQ'>
+						<input type="checkbox" value="sauce-Smoke-BBQ">
+						<img id='sauce-Smoke-BBQ-img' src="img/sauce/Smoke-BBQ.jpg">
+						<p>스모크 바비큐</p>
+					</div>
+					<div id='sauce-Italian-Dressing'>
+						<input type="checkbox" value="sauce-Italian-Dressing">
+						<img id='sauce-Italian-Dressing-img' src="img/sauce/Italian-Dressing.jpg">
+						<p>이탈리안 드레싱</p>
+					</div>
+
+
+				</div>
+			</details>
+
+			<div id='submit'>
+				<button class="custom-btnn btn-15">초기화</button>
+				<button class="custom-btn btn-16">저장하기</button>
+			</div>
+		</div>
+
+		<div class='review'>
+			<h2 id='reviewh2'>리뷰</h2>
+			<div id='review'>
+				<div id='review1'>
+					<div id='review1-img'>
+						<img src="img/review.jpg">
+					</div>
+					<p>리뷰1</p>
+				</div>
+				<div id='review2'>
+					<div id='review2-img'>
+						<img src="img/review.jpg">
+					</div>
+					<p>리뷰2</p>
+				</div>
+				<div id='review3'>
+					<div id='review3-img'>
+						<img src="img/review.jpg">
+					</div>
+					<p>리뷰3</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/detail.js"></script>
+</body>
