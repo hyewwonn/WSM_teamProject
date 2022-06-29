@@ -112,7 +112,7 @@
 	width: 100%;
 	height: auto;
 	margin-top: 25%;
-	overflow-y: scroll !important;
+	overflow-y: scroll;
 
 }
 
