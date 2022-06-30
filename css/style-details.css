@@ -14,6 +14,16 @@
   display: none;
 }
 
+#mypage{
+	width: 500px;
+	height: 100%;
+}
+
+#mypage i{
+	width: 100px;
+	height: auto;
+}
+
 #left {
 	position: fixed;
 	width: 50%;
@@ -948,6 +958,7 @@ details {
 	margin-top: 3%;
 	width: 75%;
 	text-align: center;
+	min-width: 350px;
 }
 
 button {
@@ -1108,4 +1119,24 @@ button {
 	object-fit: cover;
 	transform: translate(50, 50);
 	position: absolute;
+}
+
+@media screen and (max-width: 600px){
+	body{
+		margin-left: 0;
+		min-width: 320px;
+	}
+	#left {
+		width: 100%;
+		position: inherit;
+		margin-top : 7%;
+	}
+	#right {
+		width: 100%;
+	}
+	#submit {
+		display: flex;
+		justify-content: center;
+		margin-left: -14%;
+	}
 }
