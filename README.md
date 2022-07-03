@@ -7,9 +7,8 @@
 
 ---
 
-
+![main](https://user-images.githubusercontent.com/85982514/177044440-d84ed138-06ef-4f76-aacc-054ba3cb7607.png)
 ![detail](https://user-images.githubusercontent.com/85982514/177044360-2c874e61-d85f-493c-bd88-a9d1479a5e82.png)
-![Alt text](/img/detail.png)
 
 ---
 
