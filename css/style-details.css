@@ -1,0 +1,1111 @@
+@font-face {
+    font-family: 'MinSans-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	font-family: 'MinSans-Regular';
+	-ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#left {
+	position: fixed;
+	width: 50%;
+	height: auto;
+	display: inline-block;
+}
+
+#right {
+	width: 50%;
+	height: auto;
+	display: inline-block;
+	float: right;
+}
+
+#menu {
+	width: 100%;
+	height: 10%;
+	text-align: center;
+}
+
+#menu-img {
+	width: 75%;
+	height: auto;
+	margin-top: 12%;
+	background-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #009223;
+	border-radius: 2em;
+	text-align: center;
+	display: inline-block;
+}
+
+#menu-img img {
+	width: 65%;
+	height: auto;
+}
+
+#menu-info {
+	margin-top: 2%;
+	text-align: left;
+}
+
+#menu-name {
+	display: inline;
+	margin-left: 14%;
+}
+
+#kcal {
+	display: inline;
+	margin-right: 16%;
+	float: right;
+}
+
+#ingredient {
+	margin-left: 14%;
+	margin-top: 0;
+}
+
+#Best-recipe {
+	margin-top: 5%;
+	width: 100%;
+	height: auto;
+}
+
+#recipeh2 {
+	margin-left: 14%;
+}
+
+#recipe {
+	margin-left: 14%;
+}
+
+#recipe1 {
+	width: 100px;
+	height: 100px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0 1% 0 1%;
+	overflow-y: scroll;
+}
+
+#recipe2 {
+	width: 100px;
+	height: 100px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0 1% 0 1%;
+	overflow-y: scroll;
+}
+
+#recipe3 {
+	width: 100px;
+	height: 100px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0 1% 0 1%;
+	overflow-y: scroll;
+}
+
+#recipe p {
+	margin: 3% 2% 2% 2%;
+}
+
+#my-recipe {
+	margin: 10% 0 8% 14%;
+	overflow: auto;
+}
+
+#my-recipe input {
+	margin-left: 3%;
+}
+
+#bread {
+	width: 70%;
+	height: auto;
+}
+
+#bread p {
+	display: inline-block;
+	margin-left: 10%;
+}
+
+#bread-White {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#White-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#bread-Wheat {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#Wheat-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#bread-Flat-Bread {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#Flat-Bread-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#bread-Parmesan-Oregano {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#Parmesan-Oregano-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#bread-Honey-Oat {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#Honey-Oat-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#bread-Hearty-Italian {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#Hearty-Italian-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+.cheese {
+	margin-top: 2%;
+}
+
+#cheese {
+	width: 70%;
+	height: auto;
+}
+
+#cheese p {
+	display: inline-block;
+	margin-left: 10%;
+}
+
+#cheese-American {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#cheese-American-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#cheese-Shredded {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#cheese-Shredded-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#cheese-Mozzarella {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#cheese-Mozzarella-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+.plus {
+	margin-top: 2%;
+}
+
+#plus {
+	width: 70%;
+	height: auto;
+}
+
+#plus p {
+	display: inline-block;
+	margin-left: 10%;
+}
+
+#plus-Meat {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#plus-Meat-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#plus-Shrimp-Double-Up {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#plus-Shrimp-Double-Up-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#plus-Egg-Mayo {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#plus-Egg-Mayo-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#plus-Omelet {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#plus-Omelet-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#plus-Avocado {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#plus-Avocado-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#plus-Bacon {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#plus-Bacon-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#plus-Pepperoni {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#plus-Pepperoni-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#plus-Cheese {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#plus-Cheese-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+.vegetable {
+	margin-top: 2%;
+}
+
+#vegetable {
+	width: 70%;
+	height: auto;
+}
+
+#vegetable p {
+	display: inline-block;
+	margin-left: 10%;
+}
+
+#vegetable-Lettuce {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#vegetable-Lettuce-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#vegetable-Tomatoes {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#vegetable-Tomatoes-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#vegetable-Cucumbers {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#vegetable-Cucumbers-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#vegetable-Peppers {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#vegetable-Peppers-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#vegetable-Red-Onions {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#vegetable-Red-Onions-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#vegetable-Pickles {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#vegetable-Pickles-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#vegetable-Olives {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#vegetable-Olives-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#vegetable-Jalapenos {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#vegetable-Jalapenos-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#vegetable-Avocado {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#vegetable-Avocado-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+.sauce {
+	margin-top: 2%;
+}
+
+#sauce {
+	width: 70%;
+	height: auto;
+}
+
+#sauce p {
+	display: inline-block;
+	margin-left: 10%;
+}
+
+#sauce-Ranch {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#sauce-Ranch-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#sauce-Mayonnaise {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#sauce-Mayonnaise-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#sauce-Sweet-Onion {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#sauce-Sweet-Onion-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#sauce-Honey-Mustard {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#sauce-Honey-Mustard-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#sauce-Sweet-Chilli {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#sauce-Sweet-Chilli-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#sauce-Hot-Chilli {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#sauce-Hot-Chilli-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#sauce-Southwest-Chipotle {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#sauce-Southwest-Chipotle-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#sauce-Yellow-Mustard {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#sauce-Yellow-Mustard-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#sauce-Horseradish {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#sauce-Horseradish-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#sauce-Olive-Oil {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#sauce-Olive-Oil-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#sauce-Red-Wine-Vinaigrette {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#sauce-Red-Wine-Vinaigrette-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#sauce-Salt {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#sauce-Salt-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#sauce-Black-Pepper {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#sauce-Black-Pepper-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#sauce-Smoke-BBQ {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#sauce-Smoke-BBQ-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+#sauce-Italian-Dressing {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	margin-top: 2%;
+}
+
+#sauce-Italian-Dressing-img {
+	width: 20%;
+	height: auto;
+	border-radius: 30%;
+}
+
+details {
+	margin-left: 3%;
+}
+
+#submit {
+	margin-top: 3%;
+	width: 75%;
+	text-align: center;
+}
+
+button {
+	margin: 3px;
+}
+
+.custom-btnn {
+	width: 30%;
+	height: auto;
+	border-radius: 50px;
+	padding: 10px 25px;
+	font-weight: 500;
+	background: #D6D6D6;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	outline: none;
+}
+
+.btn-15 {
+	font-weight: bold;
+	border: none;
+	color: #000;
+}
+
+.btn-15:active {
+	top: 2px;
+}
+
+.custom-btn {
+	width: 30%;
+	height: auto;
+	border-radius: 50px;
+	padding: 10px 25px;
+	font-weight: 500;
+	background: #009223;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	outline: none;
+}
+
+.btn-16 {
+	font-weight: bold;
+	border: none;
+	color: #fff;
+}
+
+.btn-16:active {
+	top: 2px;
+}
+
+.review {
+	margin-top: 5%;
+	width: 100%;
+	height: auto;
+	margin-bottom: 10%;
+}
+
+#reviewh2 {
+	margin-left: 14%;
+}
+
+#review {
+	margin-left: 16%;
+}
+
+#review1 {
+	width: 70%;
+	height: 100px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 0.5em;
+	margin-top: 1.5%;
+	display: flex;
+	align-items: center;
+}
+
+#review2 {
+	width: 70%;
+	height: 100px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 0.5em;
+	margin-top: 1.5%;
+	display: flex;
+	align-items: center;
+}
+
+#review3 {
+	width: 70%;
+	height: 100px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 0.5em;
+	margin-top: 1.5%;
+	display: flex;
+	align-items: center;
+}
+
+#review p {
+	margin: 3% 2% 2% 2%;
+	display: inline-block;
+	margin-left: 5%;
+}
+
+#review1-img {
+	display: inline-block;
+	width: 85px;
+	height: 85px;
+	margin-left: 3%;
+	position: relative;
+}
+
+#review1-img img {
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform: translate(50, 50);
+	position: absolute;
+}
+
+#review2-img {
+	display: inline-block;
+	width: 85px;
+	height: 85px;
+	margin-left: 3%;
+	position: relative;
+}
+
+#review2-img img {
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform: translate(50, 50);
+	position: absolute;
+}
+
+#review3-img {
+	display: inline-block;
+	width: 85px;
+	height: 85px;
+	margin-left: 3%;
+	position: relative;
+}
+
+#review3-img img {
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform: translate(50, 50);
+	position: absolute;
+}
