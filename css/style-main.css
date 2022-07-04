@@ -614,6 +614,18 @@
 }
 
 @media screen and (max-width: 750px) {
+	body{
+		margin-left: 0;
+		min-width: 320px;
+	}
+	#left {
+		width: 100%;
+		position: inherit;
+		margin-top : 7%;
+	}
+	#right {
+		width: 100%;
+	}
 	#left {
 		margin-top: 3%;
 	}
