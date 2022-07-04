@@ -1109,3 +1109,24 @@ button {
 	transform: translate(50, 50);
 	position: absolute;
 }
+
+
+@media screen and (max-width: 600px){
+	body{
+		margin-left: 0;
+		min-width: 320px;
+	}
+	#left {
+		width: 100%;
+		position: inherit;
+		margin-top : 7%;
+	}
+	#right {
+		width: 100%;
+	}
+	#submit {
+		display: flex;
+		justify-content: center;
+		margin-left: -14%;
+	}
+}
