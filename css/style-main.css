@@ -612,3 +612,35 @@
 .show-menu{
 	height: 200px;
 }
+
+@media screen and (max-width: 750px) {
+	#left {
+		margin-top: 3%;
+	}
+	#right {
+		margin-top: 3%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	body{
+		margin-left: 0;
+		min-width: 320px;
+	}
+	#left {
+		width: 100%;
+		position: inherit;
+		margin-top : 7%;
+	}
+	#right {
+		width: 100%;
+	}
+	.filter {
+		position: inherit;
+		margin-left: 7%;
+	}
+	#filter {
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+}
